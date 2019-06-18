@@ -19,7 +19,7 @@ body {
 
 .contact-info {
   position: fixed;
-  top: 30%;
+  top: 20%;
 }
 
 .option {
@@ -29,13 +29,13 @@ body {
 
 .option i{
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  line-height: 120px;
+  line-height: 50px;
   background: #e84c22;
   color: #555;
-  font-size: 40px;
+  font-size: 30px;
   transition: 0.9s;
 }
 
@@ -45,19 +45,19 @@ body {
 
 .text {
   position: absolute;
-  height: 120px;
+  height: 50px;
   width: 500px;
   background: #ffbd47;
   top: 0;
   z-index: -1;
-  left: -375px;
+  left: -450px;
   color: #555;
-  font-size: 40px;
-  line-height: 120px;
+  font-size: 30px;
+  line-height: 50px;
   text-align: center;
   transition: 0.7s;
 }
 
-.option:hover text{
-  left: 120px;
+.option:hover .text{
+  left: 50px;
 }
