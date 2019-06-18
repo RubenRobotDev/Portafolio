@@ -1,0 +1,63 @@
+/* colors
+  gris: #505046;
+  contacto
+    principal: #e84c22;
+    secundario: #ffbd47;
+  redes
+    principal: #b64926;
+     */
+
+/* El código descritó acontinuación es obtenido de la cuenta de instagram webcrafterscz.
+https://www.instagram.com/p/Bq7M32kBe1Q/?igshid=c0za1061c0o9 */
+body {
+  overflow: hidden;
+  margin: 0;
+  background: #f9dcb8;
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.contact-info {
+  position: fixed;
+  top: 30%;
+}
+
+.option {
+  position: relative;
+  cursor: pointer;
+}
+
+.option i{
+  display: block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background: #e84c22;
+  color: #555;
+  font-size: 40px;
+  transition: 0.9s;
+}
+
+.option:hover i{
+  color: #ffbd47;
+}
+
+.text {
+  position: absolute;
+  height: 120px;
+  width: 500px;
+  background: #ffbd47;
+  top: 0;
+  z-index: -1;
+  left: -375px;
+  color: #555;
+  font-size: 40px;
+  line-height: 120px;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.option:hover text{
+  left: 120px;
+}
