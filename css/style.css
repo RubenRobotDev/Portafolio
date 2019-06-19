@@ -12,9 +12,13 @@ https://www.instagram.com/p/Bq7M32kBe1Q/?igshid=c0za1061c0o9 */
 body {
   overflow: hidden;
   margin: 0;
-  background: #f9dcb8;
+  background: #555;
   font-family: "montserrat", sans-serif;
   font-weight: 400;
+}
+
+.content{
+  background: #555;
 }
 
 .contact-info {
@@ -33,21 +37,21 @@ body {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  background: #e84c22;
+  background: #c0504d;
   color: #555;
   font-size: 30px;
   transition: 0.9s;
 }
 
 .option:hover i{
-  color: #ffbd47;
+  color: #c48987;
 }
 
 .text {
   position: absolute;
   height: 50px;
   width: 500px;
-  background: #ffbd47;
+  background: #c48987;
   top: 0;
   z-index: -1;
   left: -450px;
@@ -60,4 +64,57 @@ body {
 
 .option:hover .text{
   left: 50px;
+}
+
+/* own code */
+
+.project-info{
+  z-index: -1;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  /* border: solid 1px black; */
+}
+
+.project {
+  position: relative;
+  width: 100%;
+  height: 33%;
+}
+
+.project .color-1{
+  background: #f79646;
+}
+
+.project .color-2{
+  background: #f97448;
+}
+
+.project .color-3{
+  background: #e8807d;
+}
+
+.project .color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  z-index: -1;
+  transition: 0.7s;
+}
+
+.project:hover .color {
+  opacity: .5;
+}
+
+.fondo{
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #dbdbdb;
 }
