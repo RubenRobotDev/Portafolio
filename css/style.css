@@ -162,3 +162,27 @@ body {
   height: 40px;
   font-size: 30px;
 }
+
+.project .description {
+  position: absolute;
+  top: 15px;
+  left: 20%;
+  width: 60%;
+  height: 100%;
+}
+
+.project .description .title {
+  display: flex;
+  position: relative;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  transition: .7s;
+}
+
+.project:hover .description .title {
+  justify-content: left;
+  align-items: flex-start;
+  font-size: 20px;
+}
