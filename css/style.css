@@ -84,16 +84,28 @@ body {
   height: 33%;
 }
 
-.project .color-1{
+.color-1{
   background: #f79646;
 }
 
-.project .color-2{
+.color-2{
   background: #f97448;
 }
 
-.project .color-3{
+.color-3{
   background: #e8807d;
+}
+
+.Color-1{
+  background: #f79646a0;
+}
+
+.Color-2{
+  background: #f97448a0;
+}
+
+.Color-3{
+  background: #e8807da0;
 }
 
 .project .color {
@@ -122,6 +134,7 @@ body {
 
 .project i {
   position: relative;
+  color: #555;
   top: 40%;
   left: 2%;
   display: block;
@@ -156,6 +169,7 @@ body {
 .project .lenguages i{
   position: relative;
   display: inline-block;
+  color: #555;
   top: 0px;
   left: 0px;
   width: 40px;
@@ -175,14 +189,40 @@ body {
   display: flex;
   position: relative;
   height: 100%;
+  color: #333;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 60px;
+  font-family: "Karla";
   transition: .7s;
 }
 
 .project:hover .description .title {
   justify-content: left;
   align-items: flex-start;
-  font-size: 20px;
+  font-size: 35px;
+  text-shadow:
+    -.2px -.2px 0 #fff,
+    .2px -.2px 0 #fff,
+   -.2px .2px 0 #fff,
+    .2px .2px 0 #fff;
+  height: 40px;
+}
+
+.project .description .desc {
+  display: block;
+  position: fixed;
+  height: 100px;
+  width: 680px;
+  color: #333;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Karla";
+  opacity: 0.0;
+  transition: .7s;
+}
+
+.project:hover .description .desc {
+  opacity: 1.0;
 }
