@@ -96,18 +96,6 @@ body {
   background: #e8807d;
 }
 
-.Color-1{
-  background: #f79646a0;
-}
-
-.Color-2{
-  background: #f97448a0;
-}
-
-.Color-3{
-  background: #e8807da0;
-}
-
 .project .color {
   position: absolute;
   top: 0;
@@ -202,12 +190,8 @@ body {
   justify-content: left;
   align-items: flex-start;
   font-size: 35px;
-  text-shadow:
-    -.2px -.2px 0 #fff,
-    .2px -.2px 0 #fff,
-   -.2px .2px 0 #fff,
-    .2px .2px 0 #fff;
   height: 40px;
+  background-color:  #ffbd4777;
 }
 
 .project .description .desc {
@@ -224,5 +208,6 @@ body {
 }
 
 .project:hover .description .desc {
+  background: #fff7;
   opacity: 1.0;
 }
