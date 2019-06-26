@@ -211,3 +211,10 @@ body {
   background: #fff7;
   opacity: 1.0;
 }
+
+.project a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
