@@ -92,3 +92,21 @@
   border-radius: 2px;
   margin-top: 2px;
 }
+
+/* Configuración de diseño de la zona de proyectos */
+.Proyectos div{
+  width: 50%;
+  height: 100%;
+}
+
+.Proyectos .Descripcion{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.Proyectos .The-Best-Projects{
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
