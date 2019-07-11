@@ -65,6 +65,7 @@
 /* Configuración de la seccion de contacto */
 .Contacto a {
   display: block;
+  height: 60px;
   font-size: 50px;
   color: white;
 }
