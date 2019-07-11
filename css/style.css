@@ -47,11 +47,24 @@
 .Presentacion h3{
   position: fixed;
   top: 100px;
+  left: 500px;
+  font-size: 30px;
+}
+.Presentacion .profile{
+  position: fixed;
+  top: 100px;
   left: 100px;
   height: 40px;
   width: 400px;
-  font-size: 30px;
 }
+
+.Presentacion i{
+  position: absolute;
+  top: 130px;
+  left: 400px;
+  font-size: 40px;
+}
+
 .Presentacion .photo{
   position: fixed;
   top: 20px;
