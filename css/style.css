@@ -5,6 +5,8 @@
 .option:hover i{
   color: #c48987;
 } */
+
+/*Configuración de color general de los sectores del portafolio*/
 .Presentacion{
   position: absolute;
   top: 0px;
@@ -21,6 +23,8 @@
   height: 75%;
   width: 5%;
   background: #555;
+  text-align: center;
+  text-align-last: center;
 }
 .Proyectos{
   position: fixed;
@@ -30,6 +34,8 @@
   width: 95%;
   background: #DDD;
 }
+
+/* Confguración  pe sector de presentación */
 .Presentacion h1{
   position: fixed;
   left: 100px;
@@ -54,4 +60,11 @@
   width: 120px;
   height: 120px;
   border-radius: 70px;
+}
+
+/* Configuración de la seccion de contacto */
+.Contacto a {
+  display: block;
+  font-size: 50px;
+  color: white;
 }
