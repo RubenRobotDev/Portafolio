@@ -56,3 +56,12 @@
 .icon-telegram:before {
   content: "\66";
 }
+.icon-matlab:before {
+  content: "\67";
+}
+.icon-fusion:before {
+  content: "\68";
+}
+.icon-eagle:before {
+  content: "\69";
+}
