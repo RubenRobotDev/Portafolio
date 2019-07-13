@@ -171,3 +171,29 @@
   top: 30%;
   left: 55%;
 }
+
+.Proyectos .The-Best-Projects div{
+  height: 30%;
+  width: 100%;
+  background-color: #f79646;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.Proyectos .The-Best-Projects div img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  opacity: .5;
+}
+
+.Proyectos .The-Best-Projects div h1{
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
