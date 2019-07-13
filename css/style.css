@@ -32,7 +32,7 @@
   top: 25%;
   height: 75%;
   width: 95%;
-  background: #DDD;
+  background: #EEE;
 }
 
 /* Confguración  pe sector de presentación */
@@ -118,16 +118,27 @@
   text-align-last: center;
 }
 
-.Proyectos .Descripcion h1{
+.Proyectos .Descripcion .perfil{
+  background: #f9744866;
   position: absolute;
+  width: 80%;
+  height: 35%;
+  left: 10%;
   top: 10%;
-  left: 20%
 }
-.Proyectos .Descripcion p{
-  text-align: justify;
-  width: 60%;
+
+.Proyectos .Descripcion div h1{
   position: absolute;
-  top: 25%;
+  top: 0%;
+  width: 80%;
+  left: 10%;
+  border-bottom: solid 5px #f97448DD;
+}
+.Proyectos .Descripcion div p{
+  text-align: justify;
+  width: 70%;
+  position: absolute;
+  top: 30%;
   left: 15%
 }
 
@@ -151,35 +162,36 @@
   width: 100%;
 }
 
-.Proyectos .Descripcion .Habilidades div{
+.Proyectos .Descripcion .Habilidades > div{
   /* border: solid 1px black; */
-  width: 33.3%;
-  height: 25%;
+  width: 32.3%;
+  height: 24%;
+  background: #f9744866;
 }
 
 .Proyectos .Descripcion .Habilidades .FrontEnd {
   position: absolute;
-  top: 30%;
+  top: 26%;
   left: 15%;
 }
 .Proyectos .Descripcion .Habilidades .BackEnd {
   position: absolute;
-  top: 5%;
+  top: 1%;
   left: 33.3%;
 }
 .Proyectos .Descripcion .Habilidades .Math {
   position: absolute;
-  top: 5%;
+  top: 1%;
   left: 66.6%;
 }
 .Proyectos .Descripcion .Habilidades .CAD {
   position: absolute;
-  top: 5%;
+  top: 1%;
   left: 0%;
 }
 .Proyectos .Descripcion .Habilidades .VersionControl {
   position: absolute;
-  top: 30%;
+  top: 26%;
   left: 55%;
 }
 
@@ -248,4 +260,12 @@
 
 .cancel{
   background-color: #f106;
+}
+
+div{
+  border-radius: 5px;
+}
+
+body{
+  font-family: 'PT Serif', serif, 'Noto Sans JP', sans-serif;
 }
