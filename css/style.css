@@ -197,3 +197,16 @@
   top: 0px;
   left: 0px;
 }
+
+.Proyectos .The-Best-Projects .FirstProject{
+  position: absolute;
+  top: 5%;
+}
+.Proyectos .The-Best-Projects .SecondProject{
+  position: absolute;
+  top: 35%;
+}
+.Proyectos .The-Best-Projects .ThirdProject{
+  position: absolute;
+  top: 65%;
+}
