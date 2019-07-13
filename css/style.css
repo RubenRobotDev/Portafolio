@@ -182,3 +182,70 @@
   top: 30%;
   left: 55%;
 }
+
+.Proyectos .The-Best-Projects .Project{
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.Proyectos .The-Best-Projects .Project img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  opacity: .5;
+}
+
+.Proyectos .The-Best-Projects .Project h1{
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #fff7;
+}
+
+.Proyectos .The-Best-Projects .Project div{
+    z-index: 1;
+    position: absolute;
+    top:40%;
+    width: 80%;
+    height: 60%;
+    background-color: #fff7;
+}
+
+.Proyectos .The-Best-Projects .FirstProject{
+  position: absolute;
+  top: 5%;
+  background-color: #f79646;
+}
+.Proyectos .The-Best-Projects .SecondProject{
+  position: absolute;
+  top: 35%;
+  background-color: #f97448;
+}
+.Proyectos .The-Best-Projects .ThirdProject{
+  position: absolute;
+  top: 65%;
+  background-color: #e8807d;
+}
+
+.in-process{
+  background-color: #f406;
+}
+
+.building{
+  background-color: #fd06;
+}
+
+.ready{
+  background-color: #7f06;
+}
+
+.cancel{
+  background-color: #f106;
+}
