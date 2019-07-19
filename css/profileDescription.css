@@ -3,8 +3,36 @@
   background-color: #EEE;
 }
 
-.profileDescription div{
-  position: absolute;
+.profileDescription .Description{
+  width: 100%;
   height: 50%;
-  width: 100;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/* descripcion general */
+.profileDescription > .Description > .description{
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  border-radius: 5px;
+  background-color: #ee6c4d44;
+  display: flex;
+  justify-content: center;
+}
+
+/* titulo de descripcion */
+.profileDescription > .Description > .description > h1{
+  position: absolute;
+  top: 0%;
+  border-bottom: solid 5px #ee6c4d;
+}
+
+/* descripcion detallada */
+.profileDescription > .Description > .description > p{
+  position: absolute;
+  top: 30%;
+  text-align: justify;
+  width: 80%;
 }
