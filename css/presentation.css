@@ -30,3 +30,13 @@
 .presentation .profile{
   left: 10%;
 }
+
+/* email style */
+.presentation .email{
+  left: 30%;
+  transition: .5s;
+}
+
+.presentation .email:hover{
+  color: #a4d3eb;
+}
