@@ -22,5 +22,11 @@
   position: absolute;
   font-size: 1.5em;
   top: 40%;
-  color: white;
+  color: #AAA;
+  z-index: 1;
+}
+
+/* profile style */
+.presentation .profile{
+  left: 10%;
 }
