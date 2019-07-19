@@ -1,8 +1,35 @@
 /* all social networks */
 .socialNetworks div{
   position: absolute;
-  width: 80%;
-  left: 50%;
-  margin-left: -40%;
+  width: 100%;
+  left: 0%;
   font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* general social networks */
+.socialNetworks .general{
+  position: absolute;
+  top: 5%;
+  height: 8em;
+  font-size: 3em;
+  color: #AAA;
+}
+
+/* icons transition */
+.socialNetworks div i{
+  transition: .5s;
+}
+
+.socialNetworks div .ion-logo-facebook:hover{
+  color: #3c91e6;
+}
+
+.socialNetworks div .ion-logo-instagram:hover{
+  color: #ee6c4d;
+}
+
+.socialNetworks div .ion-logo-linkedin:hover{
+  color: #a4d3eb;
 }
