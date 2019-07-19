@@ -1,0 +1,8 @@
+/* all social networks */
+.socialNetworks div{
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  margin-left: -40%;
+  font-size: 2em;
+}
