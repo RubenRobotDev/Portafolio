@@ -1,0 +1,10 @@
+/* Configuracion general */
+.profileDescription{
+  background-color: #EEE;
+}
+
+.profileDescription div{
+  position: absolute;
+  height: 50%;
+  width: 100;
+}
