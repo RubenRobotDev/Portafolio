@@ -7,11 +7,20 @@
   z-index: 0;
 }
 
+/* owner name */
 .presentation h1{
   position: absolute;
   font-size: 3em;
   top: 0%;
   left: 10%;
   z-index: 1;
+  color: #DDD;
+}
+
+/* all headers third level */
+.presentation h3{
+  position: absolute;
+  font-size: 1.5em;
+  top: 40%;
   color: white;
 }
