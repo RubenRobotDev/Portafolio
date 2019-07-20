@@ -47,3 +47,36 @@
 .projects > div:hover > h3{
   left: 10%;
 }
+
+/* condition configuration */
+
+.in-process{
+  border: solid 6px #f406;
+}
+
+.building{
+  border: solid 6px #fd06;
+}
+
+.ready{
+  border: solid 6px #7f06;
+}
+
+.cancel{
+  border: solid 6px #f106;
+}
+
+.projects > div > .condition{
+  position: absolute;
+  z-index: 1;
+  width: 0px;
+  height: 0px;
+  border-radius: 6px;
+  top: 15%;
+  left: 30%;
+  transition: .5s;
+}
+
+.projects > div:hover > .condition{
+  left: 33.5%;
+}
