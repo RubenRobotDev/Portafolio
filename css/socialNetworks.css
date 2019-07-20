@@ -27,24 +27,3 @@
 .socialNetworks div a{
   color: #AAA;
 }
-
-/* icons transition */
-a > i{
-  transition: .5s;
-}
-
-.ion-logo-facebook:hover{
-  color: #3c91e6;
-}
-
-.ion-logo-instagram:hover{
-  color: #ee6c4d;
-}
-
-.ion-logo-linkedin:hover{
-  color: #a4d3eb;
-}
-
-.ion-logo-github:hover{
-  color: #FFF;
-}

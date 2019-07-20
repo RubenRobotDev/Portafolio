@@ -1,0 +1,56 @@
+i{
+  transition: .5s;
+}
+
+.ion-logo-facebook:hover{
+  color: #3c91e6;
+}
+
+.ion-logo-instagram:hover{
+  color: #ee6c4d;
+}
+
+.ion-logo-linkedin:hover{
+  color: #a4d3eb;
+}
+
+.ion-logo-github:hover{
+  color: #FFF;
+}
+
+.devicon-linux-plain:hover{
+  color: #555;
+}
+
+.devicon-python-plain:hover{
+  color: #efff42;
+}
+
+.devicon-java-plain:hover{
+  color: #ee6c4d;
+}
+
+.devicon-c-plain:hover{
+  color: #80b0ff;
+}
+
+.devicon-javascript-plain:hover{
+  color: #efff42;
+  background-color: #000;
+}
+
+.devicon-css3-plain:hover{
+  color: #ee6c4d;
+}
+
+.devicon-html5-plain:hover{
+  color: #3c91e6;
+}
+
+.devicon-git-plain:hover{
+  color: #ee6c4d;
+}
+
+.devicon-github-plain:hover{
+  color: #555;
+}
