@@ -52,4 +52,36 @@
   position: relative;
   width: 100%;
   height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.profileDescription > .Skills > div > div{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background-color: #ee6c4d44;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+}
+
+.profileDescription > .Skills > div > div > h3{
+  height: 1.5em;
+  border-bottom: solid 5px #ee6c4d;
+}
+
+.profileDescription > .Skills > div > div > p {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 25%;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  text-align: center;
+}
+.profileDescription > .Skills > div > div > p > i{
+  border: 2px;
+  position: relative;
 }
