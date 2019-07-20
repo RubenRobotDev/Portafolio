@@ -1,0 +1,26 @@
+/* general configuration */
+.projects > div{
+  position: relative;
+  width: 100%;
+  height: 33.3%;
+  left: 10px;
+  transition: .5s;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.projects > div:hover{
+  left: 0px;
+}
+
+.projects > .first{
+  background-color: #f79646;
+}
+
+.projects > .second{
+  background-color: #f97448;
+}
+
+.projects > .third{
+  background-color: #e8807d;
+}
