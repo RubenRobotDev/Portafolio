@@ -80,3 +80,18 @@
 .projects > div:hover > .condition{
   left: 33.5%;
 }
+
+/* project description configuration */
+.projects > div > p{
+  position: absolute;
+  z-index: 1;
+  width: 30em;
+  height: 4em;
+  top: 20%;
+  left: 5%;
+  transition: .5s;
+}
+
+.projects > div:hover > p{
+  left: 10%;
+}
