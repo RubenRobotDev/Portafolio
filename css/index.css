@@ -1,6 +1,74 @@
-body, p{
-	'Space Mono', monospace;
+/*
+ * Configuracion inicial del estilo
+ *
+ * estamos manipulando los colores y tamanos de las fuentes, para poder iniciar a disenar
+ * la web.
+ * */
+:root{
+	--main-color:#FFFFFC;
+	--text-color:#141400;
+	--details-color:#A0C4FF;
+	--menu-1:#FFC6FF;
+	--menu-2:#9BF6FF;
+	--menu-3:#CAFFBF;
+	--menu-4:#FDFFB6;
+	--menu-5:#FFD6A5;
+
+	--size-normal: 20px;
+	--size-high-3: 24px;
+	--size-high-2: 28px;
+	--size-high-1: 32px;
+
+	--margin: 200px;
 }
-h1, h2, h3{
-	font-family: 'BioRhyme', serif;
+body{
+	background-color: var(--main-color);
+	font-family:'Space Mono', monospace;
+	color:var(--text-color);
+	font-size: var(--size-normal);
+	margin: 0px var(--margin);
+}
+h1, h2, h3, input{
+	font-family: 'BioRhyme', serif;	
+	color:var(--text-color);
+	margin: 0px 0px 0px 0px;
+}
+h1{
+	font-size: var(--size-high-1);
+}
+h2{
+	font-size: var(--size-high-2);
+}
+h3{
+	font-size: var(--size-high-3);
+}
+p{
+	margin: 0px 0px 0px 0px;
+}
+
+/** Primeros cambios de diseño
+ *
+ */
+
+header{
+	display: flex;
+	align-items: center;
+	margin-top: 150px;
+}
+
+header div{
+	width: 460px;
+}
+
+header .photo{
+	display:flex;
+	align-items:center;
+}
+
+.background{
+	position: absolute;
+	z-index:-1;
+	background-color: var(--details-color);
+	height: 400px;
+	margin-left:150px;
 }
